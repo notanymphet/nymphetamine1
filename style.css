@@ -1,0 +1,53 @@
+@charset "UTF-8";
+/* CSS Document */
+
+nav {
+	position: sticky;
+	top: 0;
+	display: flex;
+	justify-content:space-between;
+	align-items: center;
+	margin: 0px;
+	padding: 0px;
+	background-color: deeppink
+}
+
+.navbar {
+	display:flex;
+	align-items: center;
+	list-style: none;
+}
+
+.navbar ul li {
+	float: left;
+}
+
+ul li a { 
+	display: block; 
+	color: cornsilk;
+	text-align:center; 
+	padding: 14px 16px; 
+	text-decoration: none;	
+}
+
+ul li a:hover:active {
+	background-color: mediumorchid;
+}
+
+body { 
+	background-image: url("CutiePie.copy.jpg");
+}
+
+div {
+	background-color: cornsilk;
+	margin: 30px;
+	top: 30px;
+}
+
+div {
+	padding: 20px;
+}
+
+;
+	
+	/* Responsive Design */
